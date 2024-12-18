@@ -1,21 +1,25 @@
-* {     margin: 0;     padding: 0;     box-sizing:  border-box;   
-}body { font-family: Arial,  sans-serif;     line-height: 1.6;     background-color:  	#f4f4f4;     color: #333;   
-}   
-header {     backgroundcolor: #333;     color: #fff;     padding: 10px 0;     textalign: center; } nav ul {     list-style: 
-none;     padding:  0; } nav ul li {     display: inline;     margin-right: 
-15px; } nav ul li a {     color: #fff;     textdecoration: none;     fontweight: bold; } footer {     background-color: #333;     color: #fff;     text-align: center;     padding: 10px;     position: fixed;     width: 100%;     bottom: 0; } section {     padding: 20px;     margin: 20px;     background-color: #fff;     border-radius: 8px;     boxshadow: 0 0 10px rgba(0,  
-0, 0, 0.1);   
-} h1, h2 {     color: #333;   
-} ul {     list-style: none;   
-} ul li {     margin:  
-5px 0;   
-}   
-Script.jss   
-// Example of a simple interaction using jQuery 
-document.addEventListener('DOMContentLoaded', function () {     const navLinks = document.querySelectorAll('nav a');     navLinks.forEach(link => {          link.addEventListener('mouseover', function () {             link.style.color 
-= 'orange';   
-        });   
-        link.addEventListener('mouseout', function () {              link.style.color = '';   
-        });}); });  
- 
- 
+body {     font-family: Arial, sans-serif;      
+    background-color: #f4f4f4;     margin: 0;      
+    padding: 0; } .container {     width: 60%;      
+    margin: 50px auto;     padding: 20px;      
+    background-color: white;     box-shadow: 0  
+    0 10px rgba(0, 0, 0, 0.1);  } 
+    h2 { text-align:  
+    center;   
+    }  
+    .form-group {     margin: 15px 
+    0; } label {     font-weight: bold; } input, textarea {      
+    width: 100%;     padding: 8px;      
+    margin-top: 5px;     font-size:  
+    14px; } button {     width:  
+    100%;     padding: 10px;      background-color: #4CAF50;      
+    color: white;     border: none;  
+    font-size: 16px;   
+       cursor: pointer;  } 
+    button:hover {      
+    background-color: #45a049;  } #result {     margin-top: 30px;     
+    padding: 20px;      
+    background-color: #e7f3e7;     border: 
+    1px solid #4CAF50;   
+    }   
+    
